@@ -1,0 +1,20 @@
+220 stems, 39.1% dead, 15 plots
+
+ROC AUC           0.810
+Average precision 0.801
+Dead recall       0.628
+Dead precision    0.701
+
+Confusion matrix (rows true, cols pred):
+[[111, 23], [32, 54]]
+
+Feature-group ablation:
+ features  n_features  roc_auc  average_precision  dead_recall
+      ALL          23   0.8100             0.8008       0.6279
+  density           3   0.7969             0.7761       0.6628
+  returns           3   0.7773             0.7759       0.6047
+intensity           6   0.6766             0.7144       0.5349
+    shape           4   0.7100             0.6285       0.5930
+   height           7   0.5695             0.4486       0.4302
+
+If 'intensity' alone approaches 'ALL', the model is leaning on radiometry and will not transfer to another sensor.

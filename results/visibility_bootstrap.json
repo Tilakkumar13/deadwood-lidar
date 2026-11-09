@@ -1,0 +1,62 @@
+{
+  "lidar_all": {
+    "sunlit": {
+      "roc_auc": 0.774,
+      "ci95": [
+        0.653,
+        0.893
+      ]
+    },
+    "partly shaded": {
+      "roc_auc": 0.701,
+      "ci95": [
+        0.587,
+        0.82
+      ]
+    },
+    "shaded": {
+      "roc_auc": 0.655,
+      "ci95": [
+        0.557,
+        0.735
+      ]
+    },
+    "sunlit_minus_shaded": {
+      "ci95": [
+        -0.025,
+        0.279
+      ],
+      "share_positive": 0.933
+    }
+  },
+  "lidar_plus_colour": {
+    "sunlit": {
+      "roc_auc": 0.818,
+      "ci95": [
+        0.707,
+        0.912
+      ]
+    },
+    "partly shaded": {
+      "roc_auc": 0.697,
+      "ci95": [
+        0.598,
+        0.798
+      ]
+    },
+    "shaded": {
+      "roc_auc": 0.591,
+      "ci95": [
+        0.508,
+        0.68
+      ]
+    },
+    "sunlit_minus_shaded": {
+      "ci95": [
+        0.071,
+        0.367
+      ],
+      "share_positive": 0.998
+    }
+  }
+}

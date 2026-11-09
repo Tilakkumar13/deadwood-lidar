@@ -1,0 +1,162 @@
+{
+  "trees": 921,
+  "dead": 240,
+  "flights": [
+    "SOAP_2019",
+    "SOAP_2021",
+    "SOAP_2023",
+    "TEAK_2021",
+    "TEAK_2023"
+  ],
+  "feature_sets": {
+    "lidar_structure": {
+      "overall": {
+        "n": 921,
+        "dead": 240,
+        "roc_auc": 0.682,
+        "average_precision": 0.501,
+        "base_rate": 0.261
+      },
+      "SOAP": {
+        "n": 457,
+        "dead": 171,
+        "roc_auc": 0.689,
+        "average_precision": 0.62,
+        "base_rate": 0.374
+      },
+      "TEAK": {
+        "n": 464,
+        "dead": 69,
+        "roc_auc": 0.562,
+        "average_precision": 0.187,
+        "base_rate": 0.149
+      },
+      "sunlit": {
+        "n": 253,
+        "dead": 82,
+        "roc_auc": 0.746,
+        "average_precision": 0.664,
+        "base_rate": 0.324
+      },
+      "partly shaded": {
+        "n": 478,
+        "dead": 109,
+        "roc_auc": 0.662,
+        "average_precision": 0.435,
+        "base_rate": 0.228
+      },
+      "shaded": {
+        "n": 190,
+        "dead": 49,
+        "roc_auc": 0.623,
+        "average_precision": 0.371,
+        "base_rate": 0.258
+      }
+    },
+    "lidar_all": {
+      "overall": {
+        "n": 921,
+        "dead": 240,
+        "roc_auc": 0.716,
+        "average_precision": 0.54,
+        "base_rate": 0.261
+      },
+      "SOAP": {
+        "n": 457,
+        "dead": 171,
+        "roc_auc": 0.73,
+        "average_precision": 0.647,
+        "base_rate": 0.374
+      },
+      "TEAK": {
+        "n": 464,
+        "dead": 69,
+        "roc_auc": 0.564,
+        "average_precision": 0.193,
+        "base_rate": 0.149
+      },
+      "sunlit": {
+        "n": 253,
+        "dead": 82,
+        "roc_auc": 0.774,
+        "average_precision": 0.704,
+        "base_rate": 0.324
+      },
+      "partly shaded": {
+        "n": 478,
+        "dead": 109,
+        "roc_auc": 0.701,
+        "average_precision": 0.477,
+        "base_rate": 0.228
+      },
+      "shaded": {
+        "n": 190,
+        "dead": 49,
+        "roc_auc": 0.655,
+        "average_precision": 0.403,
+        "base_rate": 0.258
+      }
+    },
+    "lidar_plus_colour": {
+      "overall": {
+        "n": 921,
+        "dead": 240,
+        "roc_auc": 0.715,
+        "average_precision": 0.55,
+        "base_rate": 0.261
+      },
+      "SOAP": {
+        "n": 457,
+        "dead": 171,
+        "roc_auc": 0.703,
+        "average_precision": 0.647,
+        "base_rate": 0.374
+      },
+      "TEAK": {
+        "n": 464,
+        "dead": 69,
+        "roc_auc": 0.641,
+        "average_precision": 0.243,
+        "base_rate": 0.149
+      },
+      "sunlit": {
+        "n": 253,
+        "dead": 82,
+        "roc_auc": 0.818,
+        "average_precision": 0.765,
+        "base_rate": 0.324
+      },
+      "partly shaded": {
+        "n": 478,
+        "dead": 109,
+        "roc_auc": 0.697,
+        "average_precision": 0.459,
+        "base_rate": 0.228
+      },
+      "shaded": {
+        "n": 190,
+        "dead": 49,
+        "roc_auc": 0.591,
+        "average_precision": 0.351,
+        "base_rate": 0.258
+      }
+    }
+  },
+  "dead_by_light": {
+    "partly shaded": 109,
+    "sunlit": 82,
+    "shaded": 49
+  },
+  "dead_by_light_by_site": {
+    "SOAP": {
+      "partly shaded": 74,
+      "sunlit": 62,
+      "shaded": 35
+    },
+    "TEAK": {
+      "partly shaded": 35,
+      "sunlit": 20,
+      "shaded": 14
+    }
+  }
+}

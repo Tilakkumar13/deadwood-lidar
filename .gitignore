@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+*.laz
+*.las
+*.parquet
+.pytest_cache/
+*.egg-info/
+
+# local runs
+data/
+scratch/
+*.log
+queue.done
+.DS_Store
